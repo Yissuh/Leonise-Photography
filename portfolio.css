@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Bebas;
+    src: url(Bebas-Regular.otf);
+  }
+
+@font-face {
+    font-family: Mono;
+    src: url(JetBrainsMono-Regular.ttf);
+}
+
+
+body
+{
+    background-color: #F8F4EF;
+    margin: 0px;
+}
+
+
+.sidemenu
+{
+    top: 0px;
+    width: 450px;
+    height: 100vh;
+    background: #F2B600;
+    text-align: center;
+    float: left;
+    position: fixed;
+}
+
+.menu
+{
+    text-align: center;
+    color: #241F0F;
+    font-size: 20px;
+    font-family: Mono;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 160px;
+}
+
+p
+{
+    transition: color 0.5s ease-out 100ms;
+    cursor: pointer;
+}
+
+p:hover
+{
+    color:#F8F4EF;
+}
+
+.uppermenu
+{
+    font-family: Mono;
+    text-align: right;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    height: 100%;
+
+}
+
+h1
+{
+    font-size: 135px;
+    font-family: Bebas;
+    color: #E30513;
+    font-weight: 100;
+    margin-bottom: -10px;
+    margin-top: 30px;
+    letter-spacing: -4px;
+}
+
+h2
+{
+    color: #241F0F;
+    text-align: left;
+    margin-left: 60px;
+    font-family: Mono;
+    font-size:larger;
+    margin-top: 0%;
+}
+
+p1
+{
+    margin: 10px;
+    transition: 0.5s ease-out 100ms;
+}
+
+p1:hover
+{
+    font-weight: bold;
+}
+
+
+.grid {
+    margin: 0;
+    padding-left: 550px;
+    padding-top: 50px;
+    position: absolute;
+} 
+
+.grid-item
+{
+    margin-bottom: 4px;
+    max-width: 300px;
+}
+
+img
+{
+    max-width: 300px;
+}
+
+
+
+
+
+
