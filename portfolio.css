@@ -27,7 +27,7 @@ body
     position: fixed;
 }
 
-.menu
+.menu 
 {
     text-align: center;
     color: #241F0F;
@@ -90,6 +90,7 @@ p1
 p1:hover
 {
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -98,6 +99,7 @@ p1:hover
     padding-left: 550px;
     padding-top: 50px;
     position: absolute;
+    z-index: -1;
 } 
 
 .grid-item
