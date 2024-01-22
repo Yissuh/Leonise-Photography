@@ -27,6 +27,18 @@ body
     position: fixed;
 }
 
+.sidemenu a
+{
+    color:black;
+    text-decoration: none;
+    transition: color 0.5s ease-out 100ms;
+}
+
+.sidemenu a:hover
+{
+    color:#F8F4EF;
+}
+
 .menu 
 {
     text-align: center;
@@ -38,15 +50,6 @@ body
     margin-top: 160px;
 }
 
-p
-{
-    transition: color 0.5s ease-out 100ms;
-}
-
-p:hover
-{
-    color:#F8F4EF;
-}
 
 .uppermenu
 {
@@ -57,6 +60,14 @@ p:hover
     padding-right: 40px;
     height: 100%;
     font-size: 17px;
+}
+
+.uppermenu a
+{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #241F0F;
 }
 
 h1
@@ -111,9 +122,6 @@ img
 {
     max-width: 300px;
 }
-
-
-
 
 
 
