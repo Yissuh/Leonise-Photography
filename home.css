@@ -107,3 +107,10 @@ h3 {
     height: auto; /* Maintain the aspect ratio */
 
 }
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 35px;
+}
