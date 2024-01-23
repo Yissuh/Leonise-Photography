@@ -47,7 +47,7 @@ body
     font-family: Mono;
     font-weight: 400;
     line-height: 150%;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 
 .contact {
@@ -56,8 +56,8 @@ body
     font-size: 15px;
     font-family: Mono;
     font-weight: 400;
-    margin-top: 100px;
-    margin-left: 125px;
+    line-height: 150%; 
+    margin-top: 140px;
 }
 
 
@@ -133,16 +133,14 @@ h3 {
     letter-spacing: -9px;
 }
 
-h4
-{
+h4 {
     font-size: 15px;
     font-family: Mono;
     color: #241F0F;
     font-weight: 100;
     margin-bottom: -10px;
-    margin-top: 15px;
+    margin-top: -25px;
     margin-left: 942px;
-    width: 400px;
 }
 
 p1
