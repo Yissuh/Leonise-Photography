@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Bebas;
+    src: url(Bebas-Regular.otf);
+  }
+
+@font-face {
+    font-family: Mono;
+    src: url(JetBrainsMono-Regular.ttf);
+}
+
 *
 {
     margin: 0;

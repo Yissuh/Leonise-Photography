@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Bebas;
+    src: url(Bebas-Regular.otf);
+  }
+
+@font-face {
+    font-family: Mono;
+    src: url(JetBrainsMono-Regular.ttf);
+}
+.uppermenu
+{
+    font-family: Mono;
+    text-align: right;
+    float: right;
+    padding-top: 18px;
+    padding-right: 35px;
+    height: 100%;
+    font-size: 17px;
+
+    
+}
+
+
+.uppermenu a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: #241F0F;
+}
+
+p1{
+    margin: 10px;
+}
+
+p1:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.container section {
+    min-width: 120%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #F2B600;
+    margin-left: 100px;
+    padding: 10px; 
+}
+
+h2 {
+    font-size: 110px;
+    font-family: Bebas;
+    color: #241F0F;
+    font-weight: 100;
+    margin-bottom: -25px;
+    margin-top: 0;
+    margin-left: 10px;
+    letter-spacing: -4px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 271px;
+    font-family: Bebas;
+    color: #E30513;
+    font-weight: 100;
+    margin-bottom: -25px;
+    margin-top: -77px;
+    margin-left: -1px;
+    letter-spacing: -13px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: Mono;
+    color: #241F0F;
+    font-weight: 100;
+    margin-bottom: -10px;
+    margin-top: -35px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
+.homepic {
+    position: fixed;
+    top: -40px;
+    right: 100px;
+    padding: 40px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.homepic img {
+    width: 100%; /* Make sure the image fills its container */
+    height: auto; /* Maintain the aspect ratio */
+
+}
