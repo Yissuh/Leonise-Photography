@@ -122,6 +122,27 @@ h2
     margin-top: 0%;
 }
 
+h3 {
+    font-size: 160px;
+    font-family: Bebas;
+    color: #E30513;
+    font-weight: 100;
+    margin-bottom: -10px;
+    margin-top: 0;
+    margin-left: 942px;
+    letter-spacing: -9px;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: Mono;
+    color: #241F0F;
+    font-weight: 100;
+    margin-bottom: -10px;
+    margin-top: -25px;
+    margin-left: 942px;
+}
+
 p1
 {
     margin: 10px;
@@ -153,4 +174,18 @@ img
 {
     max-width: 300px;
     
+}
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.container2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
 }
